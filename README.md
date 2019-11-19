@@ -1,5 +1,14 @@
 # Build a Job Board with Python & Flask
 
+## Build Docker Container
+`docker build -t jobboard:0.0.1 .`
+
+## Run Docker Container
+`docker run -p 5000:5001 -it jobboard:0.0.1`
+Now open `http://0.0.0.0:5000/` on  your browser to view the site.
+
+
+
 ## Verify Local Environment
 
 ### Create Virtual Environment
